@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="149.383" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\10693635\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\10693635\eclipse-workspace\FreeCRM\target\test-classes;C:\Users\10693635\eclipse-workspace\FreeCRM\target\classes;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\10693635\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\10693635\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\10693635\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\10693635\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\10693635\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\10693635\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\10693635\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\10693635\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\10693635\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\10693635\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\10693635\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\10693635\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\10693635\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\10693635\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\10693635\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\10693635\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\10693635\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\10693635\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\10693635\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\10693635\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\10693635\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\10693635\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\10693635\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\10693635\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\10693635\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\10693635\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\10693635\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi-scratchpad\5.2.2\poi-scratchpad-5.2.2.jar;C:\Users\10693635\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\10693635\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\10693635\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\10693635\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\10693635\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\10693635\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\10693635\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\10693635\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\10693635\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\10693635\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\10693635\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\10693635\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\10693635\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\10693635\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\10693635\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\10693635\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\10693635\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\10693635\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\10693635\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\10693635\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\10693635\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\10693635\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\10693635\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\10693635\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\10693635\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\10693635\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\10693635\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\10693635\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\10693635\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\10693635\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-11.0.8.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\10693635\AppData\Local\Temp\surefire3941616026695809277\surefirebooter16855635520651819688.jar C:\Users\10693635\AppData\Local\Temp\surefire3941616026695809277 2022-04-16T15-06-14_747-jvmRun1 surefire15814328601223668962tmp surefire_05375206671383754087tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\10693635\eclipse-workspace\FreeCRM\target\test-classes;C:\Users\10693635\eclipse-workspace\FreeCRM\target\classes;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\10693635\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\10693635\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\10693635\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\10693635\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\10693635\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\10693635\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\10693635\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\10693635\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\10693635\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\10693635\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\10693635\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\10693635\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\10693635\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\10693635\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\10693635\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\10693635\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\10693635\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\10693635\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\10693635\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\10693635\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\10693635\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\10693635\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\10693635\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\10693635\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\10693635\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\10693635\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\10693635\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\10693635\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\10693635\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\10693635\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\10693635\.m2\repository\org\apache\poi\poi-scratchpad\5.2.2\poi-scratchpad-5.2.2.jar;C:\Users\10693635\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\10693635\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\10693635\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\10693635\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\10693635\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\10693635\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\10693635\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\10693635\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\10693635\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\10693635\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\10693635\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\10693635\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\10693635\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\10693635\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\10693635\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\10693635\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\10693635\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\10693635\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\10693635\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\10693635\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\10693635\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\10693635\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\10693635\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\10693635\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\10693635\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\10693635\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\10693635\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\10693635\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\10693635\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\10693635\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\10693635\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\10693635\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\10693635"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\OpenJDK\jdk-11.0.8.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\10693635\eclipse-workspace\FreeCRM"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\10693635\AppData\Local\Temp\surefire3941616026695809277\surefirebooter16855635520651819688.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8-internal+0-adhoc..jdk11u"/>
+    <property name="user.name" value="10693635"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\10693635\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\10693635\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8-internal"/>
+    <property name="user.dir" value="C:\Users\10693635\eclipse-workspace\FreeCRM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\OpenJDK\jdk-11.0.8.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Seclore\FileSecure\Desktop Client;C:\Program Files (x86)\Seclore\FileSecure\Desktop Client\Upgrade Manager;C:\Program Files (x86)\Seclore\FileSecure\Desktop Client;C:\Program Files (x86)\Seclore\FileSecure\Desktop Client\x64;C:\Program Files\OpenJDK\jdk-11.0.8.10-hotspot\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Users\10693635\Downloads\apache-maven-3.8.5-bin (1)\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Users\10693635\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="11.0.8-internal+0-adhoc..jdk11u"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="signUp" classname="com.freecrm.testCases.signUpPageTestCase_01" time="5.613">
+    <system-out><![CDATA[04-16-2022 15:06:20 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:06:20 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:06:26 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.xpath: //a[contains(@href,'https://api.co')]
+Found Element By : By.xpath: //a[contains(@href,'https://api.co')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (494539eb9d80a8cf15152772e4b2eebe)] -> xpath: //a[contains(@href,'https://api.co')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (494539eb9d80a8cf15152772e4b2eebe)] -> xpath: //a[contains(@href,'https://api.co')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: phone
+Found Element By : By.name: phone
+Trying to find Element By : By.xpath: //input[@type="checkbox"]
+Found Element By : By.xpath: //input[@type="checkbox"]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (494539eb9d80a8cf15152772e4b2eebe)] -> xpath: //input[@type="checkbox"]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (494539eb9d80a8cf15152772e4b2eebe)] -> xpath: //input[@type="checkbox"]]
+Trying to find Element By : By.xpath: //button[@type='submit']
+Found Element By : By.xpath: //button[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (494539eb9d80a8cf15152772e4b2eebe)] -> xpath: //button[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (494539eb9d80a8cf15152772e4b2eebe)] -> xpath: //button[@type='submit']]
+04-16-2022 15:06:31 signUpPageTestCase_01.java INFO  [main] FreeCRM 37 - error message appearing succussfully
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 12056
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:06:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPageTitle" classname="com.freecrm.testCases.homepageTc_05" time="0">
+    <system-out><![CDATA[04-16-2022 15:06:32 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:06:34 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:06:34 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:06:37 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:06:39 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:06:39 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (52c13936aeca487fe8b05423479016c8)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (52c13936aeca487fe8b05423479016c8)] -> xpath: //div[text()='Login']]
+04-16-2022 15:06:39 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 34310
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:06:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="usernameVerification" classname="com.freecrm.testCases.homepageTc_05" time="1.139">
+    <system-out><![CDATA[04-16-2022 15:06:40 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:06:42 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:06:42 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:06:46 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:06:46 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:06:47 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (32195d5310e168c31d75d9b48055d33c)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (32195d5310e168c31d75d9b48055d33c)] -> xpath: //div[text()='Login']]
+04-16-2022 15:06:47 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+Trying to find Element By : By.xpath: //span[@class='user-display']
+Found Element By : By.xpath: //span[@class='user-display']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 1815
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:06:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="logoVerification" classname="com.freecrm.testCases.homepageTc_05" time="1.566">
+    <system-out><![CDATA[04-16-2022 15:06:49 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:06:51 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:06:51 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:06:54 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:06:55 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:06:55 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0de524bbda217708cb70db0d5bc26e00)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0de524bbda217708cb70db0d5bc26e00)] -> xpath: //div[text()='Login']]
+04-16-2022 15:06:56 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+Trying to find Element By : By.xpath: //div[@class='header item']
+Found Element By : By.xpath: //div[@class='header item']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 40821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:06:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="homePageTest" classname="com.freecrm.testCases.homepageTc_05" time="3.362">
+    <system-out><![CDATA[04-16-2022 15:06:58 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:07:00 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:07:00 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:07:03 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:07:04 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:07:05 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //div[text()='Login']]
+04-16-2022 15:07:05 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+Trying to find Element By : By.xpath: //span[text()='Calendar']
+Found Element By : By.xpath: //span[text()='Calendar']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Calendar']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Calendar']]
+Trying to find Element By : By.xpath: //span[text()='Contacts']
+Found Element By : By.xpath: //span[text()='Contacts']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Contacts']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Contacts']]
+Trying to find Element By : By.xpath: //span[text()='Companies']
+Found Element By : By.xpath: //span[text()='Companies']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Companies']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Companies']]
+Trying to find Element By : By.xpath: //span[text()='Deals']
+Found Element By : By.xpath: //span[text()='Deals']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Deals']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Deals']]
+Trying to find Element By : By.xpath: //span[text()='Tasks']
+Found Element By : By.xpath: //span[text()='Tasks']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Tasks']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Tasks']]
+Trying to find Element By : By.xpath: //span[text()='Cases']
+Found Element By : By.xpath: //span[text()='Cases']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Cases']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Cases']]
+Trying to find Element By : By.xpath: //span[text()='Calls']
+Found Element By : By.xpath: //span[text()='Calls']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Calls']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Calls']]
+Trying to find Element By : By.xpath: //span[text()='Documents']
+Found Element By : By.xpath: //span[text()='Documents']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Documents']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f17ba5ee750aed91e74103e4b4cc7476)] -> xpath: //span[text()='Documents']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 44003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:07:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verificationOfTitle" classname="com.freecrm.testCases.loginTestCase_02" time="0.002">
+    <system-out><![CDATA[04-16-2022 15:07:09 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:07:11 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:07:11 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:07:13 basetest.java INFO  [main] FreeCRM 81 - application launched
+04-16-2022 15:07:13 loginTestCase_02.java INFO  [main] FreeCRM 38 - login page title is correct
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 45575
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:07:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="logintest" classname="com.freecrm.testCases.loginTestCase_02" time="1.813">
+    <system-out><![CDATA[04-16-2022 15:07:14 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:07:16 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:07:16 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:07:19 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:07:20 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:07:20 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (b118002842b042ef406e573c0d56ab79)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (b118002842b042ef406e573c0d56ab79)] -> xpath: //div[text()='Login']]
+04-16-2022 15:07:21 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 2156
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:07:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="contacts" classname="com.freecrm.testCases.contactsPage_TestCase_03" time="4.862">
+    <system-out><![CDATA[04-16-2022 15:07:21 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:07:23 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:07:23 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:07:26 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:07:28 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:07:28 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e074c065aa3d91f871a3d77c9caf2d03)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e074c065aa3d91f871a3d77c9caf2d03)] -> xpath: //div[text()='Login']]
+04-16-2022 15:07:28 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+Trying to find Element By : By.xpath: //span[text()='Contacts']
+Found Element By : By.xpath: //span[text()='Contacts']
+04-16-2022 15:07:31 contactsPage_TestCase_03.java INFO  [main] FreeCRM 41 - clicked on contacts button
+Trying to find Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+Found Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+04-16-2022 15:07:31 contactsPage_TestCase_03.java INFO  [main] FreeCRM 43 - contactlabel is displayed
+Trying to find Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Found Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e074c065aa3d91f871a3d77c9caf2d03)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e074c065aa3d91f871a3d77c9caf2d03)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+04-16-2022 15:07:33 contactsPage_TestCase_03.java INFO  [main] FreeCRM 47 - clicked on create button
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 18268
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:07:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContact[john, wick, NA, infosys, jhonwick@gmail.com, 999999999](1)" classname="com.freecrm.testCases.newContactPage_TC_04" time="9.73">
+    <system-out><![CDATA[04-16-2022 15:07:34 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:07:38 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:07:39 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:07:43 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:07:43 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:07:44 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: //div[text()='Login']]
+04-16-2022 15:07:44 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+Trying to find Element By : By.xpath: //span[text()='Contacts']
+Found Element By : By.xpath: //span[text()='Contacts']
+04-16-2022 15:07:46 contactsPage_TestCase_03.java INFO  [main] FreeCRM 41 - clicked on contacts button
+Trying to find Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+Found Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+04-16-2022 15:07:46 contactsPage_TestCase_03.java INFO  [main] FreeCRM 43 - contactlabel is displayed
+Trying to find Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Found Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+04-16-2022 15:07:49 contactsPage_TestCase_03.java INFO  [main] FreeCRM 47 - clicked on create button
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.name: middle_name
+Found Element By : By.name: middle_name
+Trying to find Element By : By.xpath: (//input[@class='search'])[1]
+Found Element By : By.xpath: (//input[@class='search'])[1]
+Trying to find Element By : By.xpath: //input[@placeholder='Email address']
+Found Element By : By.xpath: //input[@placeholder='Email address']
+Trying to find Element By : By.xpath: (//i[@class='add icon'])[1]
+Found Element By : By.xpath: (//i[@class='add icon'])[1]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: (//i[@class='add icon'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: (//i[@class='add icon'])[1]]
+Trying to find Element By : By.xpath: (//button[@class='ui tiny basic icon button'])[2]
+Found Element By : By.xpath: (//button[@class='ui tiny basic icon button'])[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: (//button[@class='ui tiny basic icon button'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: (//button[@class='ui tiny basic icon button'])[2]]
+Trying to find Element By : By.xpath: //input[@placeholder='Number']
+Found Element By : By.xpath: //input[@placeholder='Number']
+Trying to find Element By : By.xpath: //button[@class='ui linkedin button']
+Found Element By : By.xpath: //button[@class='ui linkedin button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: //button[@class='ui linkedin button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c9f816c768c361f83ff0b302c1f501e)] -> xpath: //button[@class='ui linkedin button']]
+Trying to find Element By : By.xpath: //i[@class='large user red icon']
+Found Element By : By.xpath: //i[@class='large user red icon']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 42778
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:07:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContact[jhon, rambo, NA, capgemini, jhonrambo@gmail.com, 888888888](2)" classname="com.freecrm.testCases.newContactPage_TC_04" time="9.465">
+    <system-out><![CDATA[04-16-2022 15:07:59 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:08:01 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:08:01 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:08:04 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:08:06 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:08:06 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: //div[text()='Login']]
+04-16-2022 15:08:06 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+Trying to find Element By : By.xpath: //span[text()='Contacts']
+Found Element By : By.xpath: //span[text()='Contacts']
+04-16-2022 15:08:09 contactsPage_TestCase_03.java INFO  [main] FreeCRM 41 - clicked on contacts button
+Trying to find Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+Found Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+04-16-2022 15:08:09 contactsPage_TestCase_03.java INFO  [main] FreeCRM 43 - contactlabel is displayed
+Trying to find Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Found Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+04-16-2022 15:08:11 contactsPage_TestCase_03.java INFO  [main] FreeCRM 47 - clicked on create button
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.name: middle_name
+Found Element By : By.name: middle_name
+Trying to find Element By : By.xpath: (//input[@class='search'])[1]
+Found Element By : By.xpath: (//input[@class='search'])[1]
+Trying to find Element By : By.xpath: //input[@placeholder='Email address']
+Found Element By : By.xpath: //input[@placeholder='Email address']
+Trying to find Element By : By.xpath: (//i[@class='add icon'])[1]
+Found Element By : By.xpath: (//i[@class='add icon'])[1]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: (//i[@class='add icon'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: (//i[@class='add icon'])[1]]
+Trying to find Element By : By.xpath: (//button[@class='ui tiny basic icon button'])[2]
+Found Element By : By.xpath: (//button[@class='ui tiny basic icon button'])[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: (//button[@class='ui tiny basic icon button'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: (//button[@class='ui tiny basic icon button'])[2]]
+Trying to find Element By : By.xpath: //input[@placeholder='Number']
+Found Element By : By.xpath: //input[@placeholder='Number']
+Trying to find Element By : By.xpath: //button[@class='ui linkedin button']
+Found Element By : By.xpath: //button[@class='ui linkedin button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: //button[@class='ui linkedin button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (89abbdd497c10dffbd1cc1e432c78263)] -> xpath: //button[@class='ui linkedin button']]
+Trying to find Element By : By.xpath: //i[@class='large user red icon']
+Found Element By : By.xpath: //i[@class='large user red icon']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 1446
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:08:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContact[ethun, hunt, NA, cognizent, ethunhunt@gmail.com, 777777777](3)" classname="com.freecrm.testCases.newContactPage_TC_04" time="10.132">
+    <system-out><![CDATA[04-16-2022 15:08:22 basetest.java INFO  [main] FreeCRM 88 - application closed
+04-16-2022 15:08:24 basetest.java INFO  [main] FreeCRM 54 - chrome browser opened
+04-16-2022 15:08:24 basetest.java INFO  [main] FreeCRM 76 - browser maximised
+Before navigating to: 'https://ui.freecrm.com/'
+Navigated to:'https://ui.freecrm.com/'
+04-16-2022 15:08:26 basetest.java INFO  [main] FreeCRM 81 - application launched
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+04-16-2022 15:08:28 loginTestCase_02.java INFO  [main] FreeCRM 46 - user name enterd
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+04-16-2022 15:08:28 loginTestCase_02.java INFO  [main] FreeCRM 48 - password enterd
+Trying to find Element By : By.xpath: //div[text()='Login']
+Found Element By : By.xpath: //div[text()='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: //div[text()='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: //div[text()='Login']]
+04-16-2022 15:08:28 loginTestCase_02.java INFO  [main] FreeCRM 50 - clicked on login button
+Trying to find Element By : By.xpath: //span[text()='Contacts']
+Found Element By : By.xpath: //span[text()='Contacts']
+04-16-2022 15:08:31 contactsPage_TestCase_03.java INFO  [main] FreeCRM 41 - clicked on contacts button
+Trying to find Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+Found Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+04-16-2022 15:08:31 contactsPage_TestCase_03.java INFO  [main] FreeCRM 43 - contactlabel is displayed
+Trying to find Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Found Element By : By.xpath: (//button[@class='ui linkedin button'])[3]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: (//button[@class='ui linkedin button'])[3]]
+04-16-2022 15:08:33 contactsPage_TestCase_03.java INFO  [main] FreeCRM 47 - clicked on create button
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.name: middle_name
+Found Element By : By.name: middle_name
+Trying to find Element By : By.xpath: (//input[@class='search'])[1]
+Found Element By : By.xpath: (//input[@class='search'])[1]
+Trying to find Element By : By.xpath: //input[@placeholder='Email address']
+Found Element By : By.xpath: //input[@placeholder='Email address']
+Trying to find Element By : By.xpath: (//i[@class='add icon'])[1]
+Found Element By : By.xpath: (//i[@class='add icon'])[1]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: (//i[@class='add icon'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: (//i[@class='add icon'])[1]]
+Trying to find Element By : By.xpath: (//button[@class='ui tiny basic icon button'])[2]
+Found Element By : By.xpath: (//button[@class='ui tiny basic icon button'])[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: (//button[@class='ui tiny basic icon button'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: (//button[@class='ui tiny basic icon button'])[2]]
+Trying to find Element By : By.xpath: //input[@placeholder='Number']
+Found Element By : By.xpath: //input[@placeholder='Number']
+Trying to find Element By : By.xpath: //button[@class='ui linkedin button']
+Found Element By : By.xpath: //button[@class='ui linkedin button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: //button[@class='ui linkedin button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2b841d0692b4b5429ec5e82ae9753c24)] -> xpath: //button[@class='ui linkedin button']]
+Trying to find Element By : By.xpath: //i[@class='large user red icon']
+Found Element By : By.xpath: //i[@class='large user red icon']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 49135
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 16, 2022 3:08:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.freecrm.reports.extentReports3"/>
+  </listeners>
+  <test thread-count="5" name="Regression_Test(failed)">
+    <classes>
+      <class name="com.freecrm.testCases.newContactPage_TC_04">
+        <methods>
+          <include name="initialization"/>
+          <include name="teardown"/>
+          <include name="createNewContact"/>
+        </methods>
+      </class> <!-- com.freecrm.testCases.newContactPage_TC_04 -->
+    </classes>
+  </test> <!-- Regression_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
